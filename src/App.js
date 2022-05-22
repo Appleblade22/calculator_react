@@ -31,7 +31,7 @@ function App() {
     setTotal(false);
     setOperator(e.target.innerText);
     if (currState === "") return;
-    if (preState != "") {
+    if (preState !== "") {
       equals();
     }
     else {
